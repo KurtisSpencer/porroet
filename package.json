@@ -1,0 +1,30 @@
+{
+  "author": "SigurdGutmann",
+  "name": "porroet",
+  "description": "GZIP in pure JavaScript (works in the browser)",
+  "version": "1.0.0",
+  "license": "GPL",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KurtisSpencer/porroet.git"
+  },
+  "main": "./lib/gzip.js",
+  "bin": {
+    "gzip-js": "./bin/gzip.js",
+    "gunzip-js": "./bin/gunzip.js"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "dependencies": {
+    "crc32": ">= 0.2.2",
+    "deflate-js": ">= 0.2.2"
+  },
+  "devDependencies": {
+    "optimist": "~0.2"
+  },
+  "bugs": {
+    "url": "https://github.com/KurtisSpencer/porroet.git/issues"
+  },
+  "homepage": "https://github.com/KurtisSpencer/porroet.git"
+}
